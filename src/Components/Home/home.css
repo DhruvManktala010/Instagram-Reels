@@ -1,0 +1,29 @@
+.home-logout-btn {
+    position: fixed;
+    bottom: 4rem;
+    right: 30px;
+    height: 5rem;
+    width: 5rem;
+    border: none;
+    border-radius: 50%;
+  }
+  
+  .screen{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .video-container{
+      height: 92%;
+      width:400px;
+      border-radius: 20px;
+      scroll-snap-type: y mandatory; 
+      overflow-y:scroll;
+      background-color: white;
+  }
+  .video-container::-webkit-scrollbar {
+    display: none;
+}
